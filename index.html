@@ -8,8 +8,16 @@
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
   </head>
 <body ng-app="mymodal">
-<div ng-controller="MainCtrl" class="container">
-  <h1>Modal example</h1>
+
+	<div id="top" class="navbar navbar-static-top bs-docs-nav" style="background-color:#ff0000">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand"> AperArte</a>
+			</div>
+		</div>
+	</div>
+	<div ng-controller="MainCtrl" class="container">
+  <h1>AperArte</h1>
   <button ng-click="toggleModal()" class="btn btn-default">Open modal</button>
     
   <modal title="Login form" visible="showModal">
