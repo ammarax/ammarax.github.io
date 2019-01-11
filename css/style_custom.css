@@ -1,0 +1,46 @@
+#top{
+background-color:#931231
+}
+#footer{
+	background-color:#931231
+}
+
+.navbar-brand {
+color:white;
+}
+.navbar-brand:link {
+  color: white;
+}
+
+/* visited link */
+.navbar-brand:visited {
+  color: white;
+}
+
+/* mouse over link */
+.navbar-brand:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* selected link */
+.navbar-brand:active {
+  color: white;
+  text-decoration: underline;
+  box-shadow: 4px 4px 4px 4px #b53453 inset;
+  border-radius: 5px;
+}
+
+h1, h2, h3, h1:visited, h2:visited, h3:visited {
+	color:#931231;
+}
+h1:hover, h2:hover, h3:hover {
+	color:#931231;
+	text-decoration: underline;
+}
+h1:active, h2:active, h3:active{
+	border-radius: 5px;
+	color:#931231;
+	text-decoration: underline;
+	box-shadow: 4px 4px 4px 4px #b53453 inset;
+}
