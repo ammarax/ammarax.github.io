@@ -3,7 +3,7 @@ angular.module("aperarteApp", ["ngRoute"])
 	$routeProvider.when("/onBuilding",
 			{
 				templateUrl: "/onBuilding/onBuilding.html",
-				controller: "aperarteApp"
+				controller: "onBuildingCtrl"
 			}
 		)
 		.otherwise({redirectTo: "/onBuilding"});
