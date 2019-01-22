@@ -1,9 +1,0 @@
-insert into users (user_name,password) values ('test8', 'test');
-insert into users (user_name,password) values ('test7', 'test');
-insert into users (user_name,password) values ('test6', 'test');
-insert into users (user_name,password) values ('test5', 'test');
-insert into users (user_name,password) values ('test4', 'test');
-insert into users (user_name,password) values ('test3', 'test');
-insert into users (user_name,password,TOKEN) values ('test2', 'test','tokenexample2');
-insert into users (user_name,password,TOKEN) values ('test1', 'test','tokenexample1');
-insert into users (user_name,password,TOKEN) values ('test0', 'test','tokenexample0');
