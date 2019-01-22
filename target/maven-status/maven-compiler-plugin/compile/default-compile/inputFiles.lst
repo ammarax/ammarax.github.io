@@ -1,0 +1,16 @@
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/bean/UserTransfer.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/bean/RequestLogin.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/entity/User.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/service/impl/UserServiceImpl.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/service/impl/LoginServiceImpl.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/bean/Response.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/service/LoginService.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/bean/Request.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/bean/ResponseLoggedUser.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/service/UserService.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/config/Application.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/repository/UserRepository.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/rest/filter/CORSFilter.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/bean/Greeting.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/rest/LoginController.java
+/mnt/c/Users/betacom/git/ENNOVA/example1/src/main/java/it/ennova/example/rest/GreetingController.java

@@ -1,0 +1,16 @@
+it/ennova/example/bean/Request.class
+it/ennova/example/entity/User.class
+it/ennova/example/repository/UserRepository.class
+it/ennova/example/bean/Greeting.class
+it/ennova/example/config/Application.class
+it/ennova/example/rest/LoginController.class
+it/ennova/example/service/impl/UserServiceImpl.class
+it/ennova/example/service/UserService.class
+it/ennova/example/bean/ResponseLoggedUser.class
+it/ennova/example/bean/Response.class
+it/ennova/example/service/impl/LoginServiceImpl.class
+it/ennova/example/bean/UserTransfer.class
+it/ennova/example/service/LoginService.class
+it/ennova/example/bean/RequestLogin.class
+it/ennova/example/rest/filter/CORSFilter.class
+it/ennova/example/rest/GreetingController.class
