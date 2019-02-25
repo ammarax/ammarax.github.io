@@ -1,5 +1,5 @@
 #top{
-background-color:#931231
+background-color:#931231 !important;
 }
 #footer{
 	background-color:#931231
@@ -13,37 +13,48 @@ html, body {
     height: 100%;
 }
 
-.container, .row,
-.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,  .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,  .col-md-9, .col-md-10, .col-md-11, .col-md-12,
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8,  .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12
- {
-	background-color: rgba(255, 255, 255, 0.1);
+
+.bodyview
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color: rgba(255, 255, 255, 0.4);
 }
-.navbar-brand {
-color:white;
+.navbar-brand, .nav-link {
+color:white !important;
+cursor:pointer;
 }
-.navbar-brand:link {
-  color: white;
+.navbar-brand:link, .nav-link:link{
+  color: white !important;
+  cursor:pointer;
 }
 
 /* visited link */
-.navbar-brand:visited {
-  color: white;
+.navbar-brand:visited, .nav-link:visited{
+  color: white !important;
+  cursor:pointer;
 }
 
 /* mouse over link */
-.navbar-brand:hover {
-  color: white;
+.navbar-brand:hover, .nav-link:hover{
+  color: white !important;
   text-decoration: underline;
+  cursor:pointer;
 }
 
 /* selected link */
-.navbar-brand:active {
-  color: white;
+.navbar-brand:active, .nav-link:active{
+  color: white !important;
   text-decoration: underline;
-  box-shadow: 4px 4px 4px 4px #b53453 inset;
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
+  cursor:pointer;
+}
+
+.nav-link:focus{
+	outline: 0;
+	box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+	cursor:pointer;
 }
 
 h1, h2, h3, h1:visited, h2:visited, h3:visited {
