@@ -1,4 +1,3 @@
-angular.module("aperarteApp")
-.controller("onBuildingCtrl", function($scope, onBuildingService) {
+app.controller("onBuildingCtrl", function($scope, onBuildingService) {
 	$scope.utenti = onBuildingService.utenti;
 });

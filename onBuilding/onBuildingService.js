@@ -1,5 +1,4 @@
-angular.module("aperarteApp")
-.factory("onBuildingService", function() {
+app.factory("onBuildingService", function() {
 	var self = {};
 	self.utenti = [{ id:1, nome: "Andrea",   cognome: "Rossi",  citta: "Roma"    },
                    { id:2, nome: "Marco",    cognome: "Verdi",  citta: "Milano"  },
