@@ -1,5 +1,5 @@
 angular.module("aperarteApp")
-.controller("onBuildingCtrl", function($scope, onBuildingService) {
+.controller("podcastCtrl", function($scope, onBuildingService) {
 	$scope.utenti = onBuildingService.utenti;
 	
 	$scope.spreadsheet = "1Ed6A0sDcaiXw2UOqwzBDsOYDCQdVuf6aS-4dcsv6cns";
