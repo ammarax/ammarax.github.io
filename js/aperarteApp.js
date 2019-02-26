@@ -6,6 +6,13 @@ angular.module("aperarteApp", ["ngRoute"])
 				controller: "onBuildingCtrl"
 			}
 		)
+		.when("/podcast",
+			{
+				templateUrl: "/podcast/podcast.html",
+				controller: "podcastCtrl"
+			}
+		)
+		
 		.otherwise({redirectTo: "/onBuilding"});
 })
 ;
