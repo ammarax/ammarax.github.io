@@ -1,10 +1,10 @@
 angular.module("aperarteApp")
 .controller("podcastCtrl", function($scope, onBuildingService) {
-	$scope.utenti = onBuildingService.utenti;
 	
 	$scope.spreadsheet = "1Ed6A0sDcaiXw2UOqwzBDsOYDCQdVuf6aS-4dcsv6cns";
 	$scope.get_data = function(spreadsheet){
         // Using the http class to fetch data. 
+		console.log(enter function);
         $http({
           url: 'https://spreadsheets.google.com/feeds/list/'+spreadsheet+'/od6/public/values?alt=json',
           method: "GET"
