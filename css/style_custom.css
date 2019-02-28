@@ -5,7 +5,7 @@ background-color:#931231 !important;
 	background-color:#931231
 }
 body {
-	background-color:#931231;
+	background-color:#000;
 }
 
 html, body {
@@ -13,12 +13,15 @@ html, body {
     height: 100%;
 }
 
-
-.bodyview, footer
+.bodyview{
+	margin-top:56px !important;
+	padding-top:2px;
+}
+.bodyview, footer, .container .row
 {
 	margin-top:5px;
 	margin-bottom:5px;
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.3);
 }
 .navbar-brand, .nav-link {
 color:white !important;
@@ -59,12 +62,15 @@ cursor:pointer;
 
 h1, h2, h3, h1:visited, h2:visited, h3:visited {
 	color:#931231;
+	text-shadow: 0px 0px 1px #FFF;
 }
 h1:hover, h2:hover, h3:hover {
 	color:#931231;
+	text-shadow: 0px 0px 1px #FFF;
 	text-decoration: underline;
 }
 h1:active, h2:active, h3:active{
 	color:#931231;
+	text-shadow: 0px 0px 1px #FFF;
 	text-decoration: underline;
 }
