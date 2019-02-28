@@ -68,9 +68,25 @@ h1:hover, h2:hover, h3:hover {
 	color:#931231;
 	text-shadow: 0px 0px 1px #FFF;
 	text-decoration: underline;
+	cursor:default;
 }
 h1:active, h2:active, h3:active{
 	color:#931231;
 	text-shadow: 0px 0px 1px #FFF;
 	text-decoration: underline;
+	cursor:default;
+}
+.frame{
+	margin:1px -1px;
+	color:black;
+	border-style:solid;
+	border-width:1px;
+	font-family: 'Oswald', sans-serif;
+	background-color:white;
+}
+.frame h2 {
+	text-decoration: underline;
+}
+.frame p {
+	white-space: pre-wrap;
 }
