@@ -2,6 +2,7 @@
 	<div class="container w-screen">
 		<div class="row" >
 			<div class="col-md-6 frame " ng-repeat="x in frameDescList">
+				<img SRC="{{trustAsUrl(x.img)}}">
 				<h2>{{x.title}}</h2>
 				<p>{{x.desc}}</p>
 			</div>

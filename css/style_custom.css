@@ -90,3 +90,6 @@ h1:active, h2:active, h3:active{
 .frame p {
 	white-space: pre-wrap;
 }
+.frame img {
+	max-width:100%; 
+}
