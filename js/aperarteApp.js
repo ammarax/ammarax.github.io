@@ -12,6 +12,9 @@ app
 	$scope.address = "https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Ffederico-zanetti%2F"
 	$scope.podcastList  = 
 		[
+		"aperarte-ep-8-spring-art-alice-serra/",
+		"aperarte-ep-7-the-art-company-como-laura-fattorini-e-nicola-amato/",
+		"aperarte-ep-6-roberto-borghi-e-the-art-company-como/",
 		"aperarte-ep-5-francesca-lucioni-curatela-di-cities-2%2F",
 		"aperarte-ep-4-nella-mente-di-psycho-boss%2F",
 		"aperarte-ep-3-nel-atelier-di-ester-negretti%2F",
